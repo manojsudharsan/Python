@@ -2,7 +2,7 @@ X=int(input())
 Y=list(map(int,input().split()))
 Z=[]
 while(len(Y)!=0):
-       if(len(b)>1):
+       if(len(Y)>1):
           Z.append(max(Y))
           Z.append(min(Y))
           Y.remove(max(Y))
