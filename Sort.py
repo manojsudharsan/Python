@@ -1,0 +1,13 @@
+X=int(input())
+Y=list(map(int,input().split()))
+Z=[]
+while(len(Y)!=0):
+       if(len(b)>1):
+          Z.append(max(Y))
+          Z.append(min(Y))
+          Y.remove(max(Y))
+          Y.remove(min(Y))
+       else:
+          Z.append(min(Y))
+          Y.remove(min(Y))
+print(*Z,end="")
