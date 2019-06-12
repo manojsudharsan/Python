@@ -1,4 +1,4 @@
-X,Y=list(map(int,input().split()))
+X,Y=list(map(str,input().split()))
 if Y in X:
     print("yes")
 else:
