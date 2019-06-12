@@ -2,11 +2,10 @@ X,Y=map(int,input().split())
 C=list(map(int,input().split()))
 D=list(map(int,input().split()))
 e=0
-for i in range(0,X):
-      for j in range(0,Y):
-            if C[i]==D[j]:
-                e=e+1
-if e>1:
+for i in range(0,len(D)):
+       if D[i] in C:
+                 e=e+1
+if len(D)==e:
     print("YES")
 else:
     print("NO")
