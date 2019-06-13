@@ -1,0 +1,10 @@
+X=int(input())
+Y=list(map(int,input().split()))
+t=[]
+i=0
+while(X>0):
+    t.append(Y[i])
+    X=X-1
+    i=i+1
+t.reverse()
+print(*t,sep="->")
