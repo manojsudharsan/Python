@@ -1,7 +1,9 @@
 X,Y=input().split()
-if((X=='P' or X=='R') and (Y=='P' or Y=='R')):
+if X==Y:
+        print("D")
+elif((X=='P' and Y=='R') or (X=='R' and Y=='P')):
         print("P")
-elif((X=='R' or X=='S') and (Y=='R' or Y=='S')):
+elif((X=='R' and Y=='S') or (X=='S' and Y=='R')):
         print("R")
-elif((X=='P' or X=='S') and (Y=='P' or Y=='S')):
+elif((X=='P' and Y=='S') or (X=='S' or Y=='P')):
         print("S")
