@@ -1,0 +1,6 @@
+X=int(input())
+Y=list(map(int,input().split()))
+Z=min(Y)
+Y.remove(Z)
+M=min(Y)
+print(M-Z)
