@@ -4,4 +4,7 @@ t=[]
 for i in range(0,X):
     if(Y[i]==i):
         t.append(Y[i])
-print(*t,end="")
+if(len(t)==0):
+    print("-1")
+else:
+    print(*t,end="")
