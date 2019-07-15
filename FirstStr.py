@@ -1,2 +1,8 @@
-X=list(map(str,input().split()))
-print(X[0])
+X=0
+Y=input().split()
+for i in Y:
+  b=len(i)
+  if b>X:
+    X=b
+    Y=i
+print(Y)
